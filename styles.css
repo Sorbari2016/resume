@@ -1,15 +1,16 @@
 /* CUSTOMIZED STYLES */
 
-
+.row  .col-md-8 {
+    background-color: #FBFFE4;
+}
 
 
 #sidebar {
     background: #3D8D7A;
+    color: white;
 }
 
-.row  .col-md-8 {
-    background-color: #FBFFE4;
-}
+
 
 .main-section {
     display: grid;
@@ -28,4 +29,38 @@ img {
     margin-top: 30%;
     margin-left: 15%;
     border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+.intro-text, 
+.profile, 
+.skills { 
+    font-size: 14px;
+}
+
+.sidebar-m {
+    margin-left: 15%; 
+    margin-bottom: 10%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 10%;
+    font-weight: 800;
+}
+
+
+
+
+
+
+@media (max-width: 680px) {
+    img {
+        height: 100px;
+        width: 100px;
+    }
 }
