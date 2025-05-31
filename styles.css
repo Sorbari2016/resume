@@ -1,1 +1,31 @@
+/* CUSTOMIZED STYLES */
 
+
+
+
+#sidebar {
+    background: #3D8D7A;
+}
+
+.row  .col-md-8 {
+    background-color: #FBFFE4;
+}
+
+.main-section {
+    display: grid;
+    grid-template-rows:1fr 5fr; 
+    grid-template-columns: auto;
+}
+
+.upper-section {
+    background-color: green; 
+}
+
+
+img {
+    height: 150px;
+    width: 150px; 
+    margin-top: 30%;
+    margin-left: 15%;
+    border-radius: 50%;
+}
