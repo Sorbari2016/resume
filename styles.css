@@ -1,26 +1,18 @@
 /* CUSTOMIZED STYLES */
 
+/* GENERAL STYLING */
+
 .row  .col-md-8 {
     background-color: #FBFFE4;
 }
 
 
+/* SIDE BAR */
 #sidebar {
     background: #3D8D7A;
     color: white;
 }
 
-
-
-.main-section {
-    display: grid;
-    grid-template-rows:1fr 5fr; 
-    grid-template-columns: auto;
-}
-
-.upper-section {
-    background-color: green; 
-}
 
 
 img {
@@ -54,7 +46,41 @@ h3 {
 }
 
 
+/* MAIN SECTION AREA */
 
+.main-section {
+    display: grid;
+    grid-template-rows:1fr 5fr; 
+    grid-template-columns: auto;
+    color: #3D8D7A;
+}
+
+.upper-section {
+    background-color:#B3D8A8;  
+}
+
+hr {
+    margin-bottom: 5%;
+    border: 2px solid; 
+}
+
+h2 {
+    font-weight: 800;
+    margin-bottom:0.1rem ;
+}
+
+.main-m-lf {
+    margin-left: 10%;
+}
+
+.name > p {
+    margin-bottom: 3rem;
+}
+
+.summary {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 
 
