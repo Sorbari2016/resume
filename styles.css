@@ -2,6 +2,7 @@
 
 /* GENERAL STYLING */
 
+
 .row  .col-md-8 {
     background-color: #FBFFE4;
 }
@@ -84,6 +85,7 @@ h1 {
 .summary {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-size: 15px;
 }
 
 .lower-section > p {
@@ -94,6 +96,48 @@ h1 {
     margin-top: 0;
     background-color: #B3D8A8;
 }
+
+.job {
+    display: flex;
+    gap:30%;
+}
+
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.title > p, .period > p{
+    margin-bottom: 0;
+}
+
+.period {
+    align-self: flex-end;
+}
+
+.italize {
+    font-style: italic;
+}
+
+.mid-weight {
+    font-weight: 600;
+}
+
+.title .italize, 
+.period p, 
+ul li {
+    font-size: 15px;
+}
+
+
+
+
+
+
 
 
 
