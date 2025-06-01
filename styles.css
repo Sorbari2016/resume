@@ -130,11 +130,11 @@ h1 {
 .title .italize, 
 .period p, 
 ul li, 
-.edu-text {
+.section-text p  {
     font-size: 15px;
 }
 
-.edu-text {
+.section-text {
     padding-top: 5px;
     padding-bottom: 5px;
 }
