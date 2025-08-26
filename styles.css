@@ -145,9 +145,31 @@ ul li,
 
 
 
-@media (max-width: 680px) {
+@media (max-width: 600px) {
+
+ /* Center the header section items */
+    .upper-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .upper-section .main-m-lf {
+        margin: 0;
+    }
+
+    .upper-section .main-p-lf {
+    padding-left: 0; 
+    }
+
+    .name > p {
+    margin-bottom: 0; 
+    text-align: center;
+    }
+
     img {
         height: 100px;
         width: 100px;
     }
+
 }
