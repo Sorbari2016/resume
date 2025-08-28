@@ -70,12 +70,13 @@ h1 {
     margin-bottom:0.1rem ;
 }
 
-.main-m-lf {
-    margin-left: 10%;
+.main-pad {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.main-p-lf {
-    padding-left: 10%;
+.main-m-lf {
+    margin-left: 5%;
 }
 
 .name > p {
@@ -147,6 +148,10 @@ ul li,
 
 @media (max-width: 600px) {
 
+    hr {
+        display: none ;
+    }
+
     /* Remove padding from the container wrapper */
     .container {
         padding-left: 0;
@@ -176,6 +181,11 @@ ul li,
     img {
         height: 100px;
         width: 100px;
+    }
+
+    /* Reduce the gap between the job title and the year  */
+    .job {
+        gap: 15%;
     }
 
 }
