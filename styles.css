@@ -102,9 +102,13 @@ h1 {
     background-color: #B3D8A8;
 }
 
-.job {
+.job, .other-info {
     display: flex;
     gap:30%;
+}
+
+.other-info {
+    gap: 35.5%;
 }
 
 
@@ -134,7 +138,7 @@ h1 {
 .title .italize, 
 .period p, 
 ul li, 
-.section-text p  {
+.section-text p:nth-of-type(2)  {
     font-size: 15px;
 }
 
@@ -142,6 +146,11 @@ ul li,
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.small-font {
+    font-size: 15px;
+}
+
 
 
 
@@ -205,13 +214,26 @@ ul li,
     }
 
     #sidebar h3 {
-        margin-right: 8%; 
+        margin-right: 20%; 
         margin-left: 0;
         text-align: center;
     }
 
-    .period p {
+    .period p, 
+    .small-font{
         font-size: 12px;
+    }
+
+    .other-info {
+    gap: 23.5%;
+    }
+
+    .profile {
+        margin-right: 17%;
+    }
+
+    .skills {
+        margin-right: 10%
     }
 
 }
