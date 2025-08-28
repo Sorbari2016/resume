@@ -147,6 +147,12 @@ ul li,
 
 @media (max-width: 600px) {
 
+    /* Remove padding from the container wrapper */
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
  /* Center the header section items */
     .upper-section {
         display: flex;
